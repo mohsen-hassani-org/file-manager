@@ -16,11 +16,11 @@ python3 manage.py runserver
 ```
 
 ## Endpoints
-    /api/v1/files/                         => my all files in root
-    /api/v1/files/<path>/                  => details of a path (including subfiles in case of directory) 
-    /api/v1/files/info/<path>/             => download a file or raise in case of directory
-    /api/v1/files/download/<path>/         => download a file or raise in case of directory
-    /api/v1/files/delete/<path>/           => delete a file or raise in case of directory
-    /api/v1/files/new-directory/<path>/    => new directory in this path or raise error in case of folder
-    /api/v1/files/upload/<path>/           => upload new file here
-    /api/v1/files/move/<path>/             => upload new file here
+    [x] /api/v1/files/                         => my all files in root
+    [x] /api/v1/files/<path>/                  => details of a path (including subfiles in case of directory) 
+    [ ] /api/v1/files/info/<path>/             => download a file or raise in case of directory
+    [ ] /api/v1/files/download/<path>/         => download a file or raise in case of directory
+    [ ] /api/v1/files/delete/<path>/           => delete a file or raise in case of directory
+    [x] /api/v1/files/new-directory/<path>/    => new directory in this path or raise error in case of folder
+    [ ] /api/v1/files/upload/<path>/           => upload new file here
+    [ ] /api/v1/files/move/<path>/             => upload new file here
